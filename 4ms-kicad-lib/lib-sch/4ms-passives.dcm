@@ -17,9 +17,19 @@ D Schottky Barrier Rectifier Diode, SOD-123
 K diode Schottky
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
 $CMP CAP_TH
 D Unpolarized capacitor
 K cap capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
 $ENDCMP
 #
 $CMP DIODE_TH
@@ -30,6 +40,11 @@ $ENDCMP
 $CMP D_Schottky_x2_Serial
 D Double diode Shottky (Serie)
 K DEV DIODE
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP LDR
